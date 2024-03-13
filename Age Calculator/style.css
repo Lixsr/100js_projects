@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(0, 0%, 97%);
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.container{
+    
+    box-shadow: black 0px 0px 5px;
+    border-radius: 5px;
+    background-color: white;
+    width: 65%;
+    max-width: 80vh;
+    padding: 40px;
+    margin-top: 10%;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#bDate{
+    font-size: 20px;
+    width: 40%;
+    margin: 10px;
+}
+#btn{
+    font-size: 20px;
+    padding: 8px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
