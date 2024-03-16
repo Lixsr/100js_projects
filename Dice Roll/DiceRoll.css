@@ -1,0 +1,96 @@
+header{
+    font-size: 4rem;
+}
+
+body{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient( green, 65%, lightblue);
+    background-attachment: fixed;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    min-width: 400px;
+}
+button{
+    font-size: 2rem;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: hsl(300, 100%, 22%);
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(300, 100%, 25%);
+}
+button:active{
+    background-color: hsl(300, 100%, 30%);
+}
+#dice{
+    font-size: 7rem;
+    
+}
+.rolling{
+    animation: roll;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+@keyframes roll {
+    70%{rotate: 900deg;}
+    50%{transform: scale(1.2, 1.2);}
+    50%{transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);}
+}
+
+
+#rolls{
+    width: 40%;
+    list-style: none;
+}
+#rolls li{
+
+    display: flex;
+    align-items: center;
+
+    height: 4rem;
+    border: none;
+    background-color: hsl(0, 0%, 93%);
+    
+    padding: .8rem;
+    margin: .7rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(126, 126, 126);
+    
+    
+    animation: pop-up;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+}
+@keyframes pop-up {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+#rolls li div{
+    
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: 5%;
+    justify-self: right;
+}
