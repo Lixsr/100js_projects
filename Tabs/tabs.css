@@ -1,0 +1,76 @@
+body{
+    height: 100svh;
+    margin: 0px;
+    background-color: hsl(336, 81%, 82%);
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    height: 100%;
+}
+.image{
+    width: 50%;
+    
+}
+.img{
+    margin: 10px;
+    width: 95%;
+    height: auto;
+    
+    
+    
+
+}
+
+.display{
+    
+    border-radius: 10px;
+    width: 50%;
+    overflow: hidden;
+    
+}
+.btns{
+    margin: 0px;
+    display: flex;
+    
+
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(336, 81%, 57%);;
+    color: whitesmoke;
+}
+button{
+    margin: 0px;
+    padding: .8rem;
+    border: none;
+
+    width: 100%;
+    font-size: 1rem;
+    background-color: hsl(221, 64%, 83%);
+    transition: all 0.3s linear;
+    
+}
+.text{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: antiquewhite;
+    height: 500px;
+}
+.live{
+    background-color: antiquewhite;
+    
+    
+}
+.live:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+p{
+    display: none;
+}
+.view{
+    display: block;
+}
