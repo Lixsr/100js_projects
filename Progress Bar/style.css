@@ -1,0 +1,39 @@
+body{
+    background-color: #f6fa2d;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    
+}
+.step{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+i{
+    
+}
+small{
+    margin: 1.5rem 1rem;
+    font-size: .8rem;
+    font-family: system-ui;
+}
+button{
+    border: none;
+    font-size: 2rem;
+    margin-top: 20px;
+    background-color: #f6fa2d;
+    cursor: pointer;
+    color: hsl(0, 0%, 10%);
+}
+button:hover{
+    color: hsl(0, 0%, 15%);
+}
+button:active{
+    color: hsl(0, 0%, 25%);
+}
