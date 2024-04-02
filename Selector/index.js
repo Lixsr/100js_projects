@@ -23,5 +23,6 @@ selection.addEventListener('click', () => {
 li_items.forEach((el) => {
     el.addEventListener('click', () => {
         selection.firstElementChild.innerHTML = el.innerHTML;
+        options.classList.add('hidden');
     })
 });
