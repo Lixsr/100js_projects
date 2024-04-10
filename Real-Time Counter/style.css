@@ -1,0 +1,31 @@
+body{
+    background-color: lightblue;
+    background-attachment: fixed;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: 75px;
+    font-size: 1.2rem;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.container{
+    padding: 15px;
+    background-color: hsl(196, 100%, 92%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    min-width: 200px;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
