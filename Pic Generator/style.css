@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    background-color: hsl(0, 0%, 95%);
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;   
+}
+
+.container{   
+    text-align: center;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#load{
+    border: none;
+    background-color: purple;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+#load:hover{
+    opacity: .9;
+}
